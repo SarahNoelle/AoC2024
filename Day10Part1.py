@@ -11,7 +11,7 @@ def readFile(filename):
 def findTrails(grid):
     res = 0
     row, col = len(grid), len(grid[0])
-    # for each row and col depth-search-first
+    # for each row and column start the search
     for r in range(row):
         for c in range(col):
             if grid[r][c] == 0:

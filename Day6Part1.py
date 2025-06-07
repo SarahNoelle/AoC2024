@@ -1,5 +1,5 @@
 def readFile(filename):
-    
+    #test
     with open(filename, "r") as f:
         grid = [list(line.strip()) for line in f if line.strip()]
     if not grid:
